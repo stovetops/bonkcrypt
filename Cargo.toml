@@ -1,0 +1,11 @@
+[package]
+name = "megabonk-crypt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes = "0.8"
+cbc = { version = "0.1", features = ["alloc"] }
+base64 = "0.22"
+serde_json = "1.0"
+hex-literal = "1.1.0"
