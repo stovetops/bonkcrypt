@@ -10,7 +10,7 @@
     (linux instructions cause I forgot how to do it on windows) 
     git clone https://github.com/stovetops/bonkcrypt.git
     cd bonkcrypt
-    rustup run stable cargo build --release
+    rustup run stable cargo build --release // if you're not using rustup, just do cargo build --release instead
     chmod +x target/release/bonkcrypt
     ./target/release/bonkcrypt
 
