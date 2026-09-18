@@ -16,5 +16,4 @@
 
  
 
-###### I recommend you make a manual backup of your progression.json and stats.json files (specific locations above) before attempting encryption/decryption in case the key or IV has changed for some reason, as that would corrupt any files you attempt to en/decrypt using the old key/iv combo.
-###### As of this writing (18th Sept 2026) the key/iv combo has not changed since the latest update (1.0.69/1.0.71) in Jan 2026
+###### I recommend you make a manual backup of your progression.json and stats.json files (specific locations above) before attempting encryption/decryption in case of any unforeseen issues or the key and/or IV has changed without an update to this code.
