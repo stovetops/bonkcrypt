@@ -10,7 +10,7 @@ use std::path::{Path, PathBuf};
 type AesEnc = cbc::Encryptor<aes::Aes256>;
 type AesDec = cbc::Decryptor<aes::Aes256>;
 
-//32bit key and 16bit IV for Megabonk as of latest update 1.0.17
+//32bit key and 16bit IV for Megabonk as of latest update 1.0.69
 const KEY: [u8; 32] = hex_literal::hex!("D940840D5AE7C7907B092437BC0C5B44AAF70E273E12D0FB4DA2B8C767CC911D");
 const IV: [u8; 16] = hex_literal::hex!("37864EF15C24BC0ACBC60E3978EF1F06");
 
