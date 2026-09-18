@@ -12,7 +12,7 @@
     cd bonkcrypt
     rustup run stable cargo build --release
     chmod +x target/release/bonkcrypt
-    .target/release/bonkcrypt
+    ./target/release/bonkcrypt
 
  
 
